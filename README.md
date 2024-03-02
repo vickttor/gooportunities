@@ -11,3 +11,4 @@ go mod init github.com/vickttor/gooportunities
 - When we create a new directory we consider it as a sub package.
 - It's a convention to give the same name of the file into a folder. Example: `router/router.go`
 - When we declare a function with Captial letter, it becomes exportable
+- When we have different files with the same package declaration, we can use its functions and variables without between them without import them.
